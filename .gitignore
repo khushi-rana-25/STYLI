@@ -1,0 +1,25 @@
+# macOS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# BUILDS
+build/
+
+# iOS Specific
+*.ipa
+*.xcuserstate
+*.xcuserdatad
+*.xccheckout
+*.xcodeproj/project.xcworkspace/xcuserdata
+
+# Workspace Settings
+*.idea
+*.xcworkspace/xcuserdata
+
+# Log files
+*.log
+
+# Code Dependency files
+Carthage/Build
+Cocoapods-lock
