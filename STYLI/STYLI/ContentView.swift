@@ -1,3 +1,10 @@
+//
+//  ContentView.swift
+//  STYLI
+//
+//  Created by Khushi Rana on 04/01/26.
+//
+
 import SwiftUI
 
 struct ContentView: View {
@@ -5,8 +12,13 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundColor(.accentColor)
+                .foregroundStyle(.tint)
             Text("Hello, world!")
         }
+        .padding()
     }
+}
+
+#Preview {
+    ContentView()
 }
